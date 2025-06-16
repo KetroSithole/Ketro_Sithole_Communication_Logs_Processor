@@ -63,7 +63,7 @@ An **SSIS project** was built to automate the data pipeline:
 - Modular and extensible for CI/CD in enterprise-grade data platforms
 
 🛠 *I’m ready to walk through the full SSIS setup and demonstrate the pipelines during interviews, showcasing package logic, data lineage, and error handling mechanisms.*
-
+![SSIS Codes](ssis_views.png)
 ---
 
 ## 📈 Power BI Dashboard
