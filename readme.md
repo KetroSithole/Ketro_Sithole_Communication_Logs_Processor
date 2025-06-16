@@ -71,7 +71,7 @@ Power BI was used to create dynamic dashboards showing:
 - Channel volumes  
 - Delivery and success trends  
 - Duration vs. outcome metrics  
-- Filterable views by direction, channel, and status
+- Filterable views by direction, channel, and status.
 
 ---
 
