@@ -41,6 +41,8 @@ The Python script `01_data_cleaning.py` performs the following:
 | SMS     | 30             | 20         | 10            | 67%              |
 | Voice   | 37             | 24         | 13            | 65%              |
 
+![Json Results](json.png)
+
 ---
 
 ## 📁 Deliverables
