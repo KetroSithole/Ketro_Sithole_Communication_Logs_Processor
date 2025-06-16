@@ -31,6 +31,8 @@ The Python script `01_data_cleaning.py` performs the following:
 - SMS: 24.49
 - Voice: 40.84
 
+![SQL Results](sql_codes/sql_results.png)
+
 ### 🚀 Outbound Success Metrics
 
 | Channel | Total Outbound | Successful | Unsuccessful | Success Rate (%) |
