@@ -81,4 +81,13 @@ Power BI was used to create dynamic dashboards showing:
 
 ## 🧠 Final Thought
 
-By combining **Python**, **SSIS**, and **Power BI**, this project delivers a complete data analytics solution. It’s optimized for operational reporting, real-time monitoring, and strategic insight into multi-channel communications.
+## Project Showcase
+
+This project showcases my skillset as a **Full-Stack Data Specialist**.
+
+By combining **Python**, **SSIS**, and **Power BI**, this project delivers a complete data analytics solution optimized for **operational reporting**, **real-time monitoring**, and **strategic insights** into multi-channel communications.
+
+---
+
+**Ketro Sithole**  
+📞 074 907 6929
