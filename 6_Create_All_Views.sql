@@ -1,0 +1,7 @@
+SELECT TOP (1000) [CustomerID]
+      ,[Timestamp]
+      ,[Channel]
+      ,[Direction]
+      ,[Status]
+      ,[Duration]
+  FROM [Sigma_Connected].[dbo].[OLE DB Destination]

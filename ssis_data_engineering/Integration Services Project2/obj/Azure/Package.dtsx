@@ -1,0 +1,702 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/14/2025 7:41:18 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-IQVH6HL"
+  DTS:CreatorName="DESKTOP-IQVH6HL\Ketro Sithole"
+  DTS:DTSID="{DFFFAA85-2528-49DF-8B82-7170E533C37C}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="7177"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{10F4C6FF-483E-4E07-9332-E1EB95CF41E4}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-IQVH6HL\SQLEXPRESS.Sigma_Connected]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{53938A73-5341-4342-8846-1D8D904DA35C}"
+      DTS:ObjectName="DESKTOP-IQVH6HL\SQLEXPRESS.Sigma_Connected">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-IQVH6HL\SQLEXPRESS;Initial Catalog=Sigma_Connected;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{53938A73-5341-4342-8846-1D8D904DA35C}DESKTOP-IQVH6HL\SQLEXPRESS.Sigma_Connected;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{2F4A6CCB-0649-4559-A91A-6A5DC83D3804}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="7177"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Ketro Sithole\OneDrive - Expeditus\Pictures\KETRO_SITHOLE\1_Raw_Data\messy_logs.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CustomerID"
+              DTS:DTSID="{445D79C8-A4B6-4CBB-9132-BB9B16A0E6EC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Timestamp"
+              DTS:DTSID="{64297D5A-B84D-49C1-B2B1-D9A32D40AA85}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Channel"
+              DTS:DTSID="{5578E4E0-0816-4BD5-9BF9-44CA94A5D5AD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Direction"
+              DTS:DTSID="{2834BB9A-0337-45D3-9525-8999C233008C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Status"
+              DTS:DTSID="{96C6B996-210D-441D-B543-E1C6A8C310A5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Duration"
+              DTS:DTSID="{63A00FFF-B879-4302-AE9B-A76F8C704DA4}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Execute SQL Task"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:Disabled="True"
+      DTS:DTSID="{07C32FBE-2EC7-4240-8434-9FDD1E98124D}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute SQL Task"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{53938A73-5341-4342-8846-1D8D904DA35C}"
+          SQLTask:SqlStatementSource="IF OBJECT_ID('dbo.Cleaned_Logs', 'U') IS NULL&#xA;BEGIN&#xA;    CREATE TABLE dbo.Cleaned_Logs (&#xA;        CustomerID INT,&#xA;        Timestamp DATETIME,&#xA;        Channel VARCHAR(50),&#xA;        Direction VARCHAR(50),&#xA;        Status VARCHAR(50),&#xA;        Duration INT&#xA;    );&#xA;END&#xA;&#xA;INSERT INTO dbo.Cleaned_Logs (CustomerID, Timestamp, Channel, Direction, Status, Duration)&#xA;SELECT &#xA;    CAST(LTRIM(RTRIM(CustomerID)) AS INT) AS CustomerID,&#xA;    CAST([Timestamp] AS DATETIME) AS Timestamp,&#xA;    LOWER(LTRIM(RTRIM(Channel))) AS Channel,&#xA;    LOWER(LTRIM(RTRIM(Direction))) AS Direction,&#xA;    LOWER(LTRIM(RTRIM(Status))) AS Status,&#xA;    CASE &#xA;        WHEN ISNUMERIC(Duration) = 1 THEN CAST(Duration AS INT)&#xA;        ELSE 0&#xA;    END AS Duration&#xA;FROM [Sigma_Connected].[dbo].[OLE DB Destination] AS src&#xA;WHERE &#xA;    TRY_CAST(LTRIM(RTRIM(CustomerID)) AS INT) IS NOT NULL&#xA;    AND LTRIM(RTRIM(CustomerID)) &lt;&gt; ''&#xA;    AND TRY_CAST([Timestamp] AS DATETIME) IS NOT NULL&#xA;    AND NOT EXISTS (&#xA;        SELECT 1&#xA;        FROM dbo.Cleaned_Logs AS tgt&#xA;        WHERE &#xA;            tgt.CustomerID = CAST(LTRIM(RTRIM(src.CustomerID)) AS INT)&#xA;            AND tgt.Timestamp = CAST(src.[Timestamp] AS DATETIME)&#xA;            AND LOWER(LTRIM(RTRIM(src.Channel))) = tgt.Channel&#xA;    );&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\SSIS Package To Clean This Data"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{68AD05F3-6E62-402C-8F77-E7F2D9AF3EFD}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SSIS Package To Clean This Data"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\SSIS Package To Clean This Data\Messy_Data"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="7177"
+              name="Messy_Data"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\SSIS Package To Clean This Data\Messy_Data.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[CustomerID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[CustomerID]"
+                      length="50"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[CustomerID]"
+                      name="CustomerID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Timestamp]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[Timestamp]"
+                      length="50"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Timestamp]"
+                      name="Timestamp"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Channel]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[Channel]"
+                      length="50"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Channel]"
+                      name="Channel"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Direction]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[Direction]"
+                      length="50"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Direction]"
+                      name="Direction"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Status]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[Status]"
+                      length="50"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Status]"
+                      name="Status"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Duration]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[Duration]"
+                      length="50"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Duration]"
+                      name="Duration"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[CustomerID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerID" />
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[Timestamp]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Timestamp" />
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[Channel]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Channel" />
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[Direction]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Direction" />
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[Status]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Status" />
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].ExternalColumns[Duration]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Duration" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Messy_Data_In_Sql"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[OLE DB Destination]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">true</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-IQVH6HL\SQLEXPRESS.Sigma_Connected]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-IQVH6HL\SQLEXPRESS.Sigma_Connected]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].Columns[CustomerID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="CustomerID"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[CustomerID]"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[CustomerID]" />
+                    <inputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].Columns[Timestamp]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Timestamp"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[Timestamp]"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Timestamp]" />
+                    <inputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].Columns[Channel]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Channel"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[Channel]"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Channel]" />
+                    <inputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].Columns[Direction]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Direction"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[Direction]"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Direction]" />
+                    <inputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].Columns[Status]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Status"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[Status]"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Status]" />
+                    <inputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].Columns[Duration]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Duration"
+                      externalMetadataColumnId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[Duration]"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output].Columns[Duration]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[CustomerID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="CustomerID" />
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[Timestamp]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Timestamp" />
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[Channel]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Channel" />
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[Direction]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Direction" />
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[Status]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Status" />
+                    <externalMetadataColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input].ExternalColumns[Duration]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Duration" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\SSIS Package To Clean This Data.Paths[Flat File Source Output]"
+              endId="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql.Inputs[OLE DB Destination Input]"
+              name="Flat File Source Output"
+              startId="Package\SSIS Package To Clean This Data\Messy_Data.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{B11662FE-9741-4DC5-BAF1-64980932835E}"
+      DTS:From="Package\SSIS Package To Clean This Data"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Execute SQL Task" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="237.6,41.6"
+          Id="Package\SSIS Package To Clean This Data"
+          TopLeft="309.166649774546,130.866665756636" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="427.966649774546,172.466665756636">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="138.599990438422,101.399999005596"
+              Start="0,0"
+              End="138.599990438422,93.8999990055959">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.6999995027979" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,46.6999995027979"
+                    Point2="0,50.6999995027979"
+                    Point3="4,50.6999995027979" />
+                  <mssgle:LineSegment
+                    End="134.599990438422,50.6999995027979" />
+                  <mssgle:CubicBezierSegment
+                    Point1="134.599990438422,50.6999995027979"
+                    Point2="138.599990438422,50.6999995027979"
+                    Point3="138.599990438422,54.6999995027979" />
+                  <mssgle:LineSegment
+                    End="138.599990438422,93.8999990055959" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="164.8,41.6"
+          Id="Package\Execute SQL Task"
+          TopLeft="484.166640212968,273.866664762232" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\SSIS Package To Clean This Data">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="136,41.6"
+          Id="Package\SSIS Package To Clean This Data\Messy_Data"
+          TopLeft="248.333319764999,217.533331820634" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql"
+          TopLeft="512.499971998236,356.19999752303" />
+        <EdgeLayout
+          Id="Package\SSIS Package To Clean This Data.Paths[Flat File Source Output]"
+          TopLeft="316.333319764999,259.133331820634">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="281.766652233237,97.0666657023961"
+              Start="0,0"
+              End="281.766652233237,89.5666657023961">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5333328511981" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,44.5333328511981"
+                    Point2="0,48.5333328511981"
+                    Point3="4,48.5333328511981" />
+                  <mssgle:LineSegment
+                    End="277.766652233237,48.5333328511981" />
+                  <mssgle:CubicBezierSegment
+                    Point1="277.766652233237,48.5333328511981"
+                    Point2="281.766652233237,48.5333328511981"
+                    Point3="281.766652233237,52.5333328511981" />
+                  <mssgle:LineSegment
+                    End="281.766652233237,89.5666657023961" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\SSIS Package To Clean This Data\Messy_Data_In_Sql">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

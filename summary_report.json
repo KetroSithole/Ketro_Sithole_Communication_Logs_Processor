@@ -1,0 +1,33 @@
+{
+    "Total_Valid_Rows": 182,
+    "Count_Per_Channel": {
+        "email": 71,
+        "voice": 64,
+        "sms": 47
+    },
+    "Avg_Duration_Per_Channel": {
+        "email": 36.28,
+        "sms": 24.49,
+        "voice": 40.84
+    },
+    "Outbound_Channel_Success": {
+        "email": {
+            "Total_Outbound": 39,
+            "Successful_Outbound": 26,
+            "Unsuccessful_Outbound": 13,
+            "Success_Rate_Percent": 67
+        },
+        "sms": {
+            "Total_Outbound": 30,
+            "Successful_Outbound": 20,
+            "Unsuccessful_Outbound": 10,
+            "Success_Rate_Percent": 67
+        },
+        "voice": {
+            "Total_Outbound": 37,
+            "Successful_Outbound": 24,
+            "Unsuccessful_Outbound": 13,
+            "Success_Rate_Percent": 65
+        }
+    }
+}
