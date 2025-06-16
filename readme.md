@@ -6,14 +6,14 @@ This project presents a fully developed data pipeline and analysis solution for 
 
 ## 🧹 Data Cleaning & Processing (Python)
 
-The Python script `analysis_ketro.py` performs the following:
+The Python script `01_data_cleaning.py` performs the following:
 
 - **Standardizes** timestamps to ISO format (`YYYY-MM-DD HH:MM:SS`)
 - Converts `Channel` and `Status` fields to **lowercase**
 - Drops rows with missing or invalid `CustomerID` and malformed timestamps
 - **Handles missing durations** by converting blanks and non-numeric values to `0`
-- Saves the cleaned data to `KETROM_FINAL.csv`
-- Summarizes the data and exports insights to `analysis_byketro.json`
+- Saves the cleaned data to `cleaned_logs.csv`
+- Summarizes the data and exports insights to `summary_report.json`
 
 ---
 
