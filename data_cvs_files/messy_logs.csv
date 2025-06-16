@@ -1,0 +1,501 @@
+CustomerID,Timestamp,Channel,Direction,Status,Duration
+93810,2024-06-10 05:28:25,email,inbound,delivered, 
+,06/06/2024 09:13,email,inbound,,
+42098,2024-06-09,email,inbound,SENT,n/a
+28289,2024-06-11 23:08:28,sms,inbound,failed, 
+98696,2024-06-01,Email,outbound,DELIVERED,290
+,2024-06-10 15:53:36,VOICE,outbound,SENT,
+14165,2024-06-04,sms,outbound,answered,113
+22280,invalid_date,Email,outbound,delivered,n/a
+40495,02/06/2024 18:24,voice,inbound,,169
+83563,invalid_date,Email,inbound,answered,
+,07/06/2024 20:50,voice,outbound,received,n/a
+,03/06/2024 01:30,Email,outbound,DELIVERED,
+,invalid_date,email,inbound,,228
+10851,08/06/2024 12:30,sms,outbound,DELIVERED,n/a
+,07/06/2024 00:57,Email,inbound,SENT,127
+46421,invalid_date,VOICE,inbound,SENT,
+,2024-06-08,VOICE,inbound,received,55
+23396,2024-06-06,SMS,outbound,failed, 
+59797,2024-06-09 02:13:53,Email,inbound,sent, 
+,invalid_date,sms,inbound,sent, 
+,2024-06-11,email,inbound,SENT, 
+,09/06/2024 05:22,SMS,inbound,SENT, 
+80284,invalid_date,Email,inbound,delivered, 
+59615,2024-06-05,email,inbound,received,n/a
+,invalid_date,sms,outbound,answered, 
+,2024-06-09,sms,inbound,sent,37
+85674,2024-06-06,SMS,inbound,received,150
+19116,invalid_date,SMS,inbound,answered,
+96673,invalid_date,Email,outbound,answered,53
+47930,02/06/2024 07:03,email,outbound,answered,n/a
+40512,2024-06-05,VOICE,inbound,DELIVERED,n/a
+,2024-06-07,email,inbound,sent,38
+,2024-06-09,sms,inbound,failed, 
+,invalid_date,sms,inbound,delivered, 
+56566,2024-06-04 07:56:53,Email,outbound,answered, 
+,2024-06-07 20:50:19,VOICE,inbound,sent,80
+99593,invalid_date,voice,outbound,sent,
+89840,2024-06-11,Email,outbound,SENT,n/a
+80010,10/06/2024 09:57,sms,inbound,sent,
+,2024-06-08,sms,outbound,received,
+,03/06/2024 15:47,email,inbound,SENT,121
+93886,2024-06-08,VOICE,inbound,failed, 
+,09/06/2024 05:24,email,outbound,, 
+17331,2024-06-08 14:59:25,email,outbound,sent,78
+,2024-06-11 23:08:07,Email,outbound,answered,184
+,invalid_date,email,inbound,failed,218
+18675,2024-06-01,SMS,inbound,failed, 
+,09/06/2024 21:18,SMS,outbound,,102
+,2024-06-02,email,outbound,DELIVERED,n/a
+,invalid_date,VOICE,inbound,DELIVERED,
+,03/06/2024 03:09,email,outbound,failed, 
+28301,2024-06-02,sms,outbound,answered,
+,2024-06-07,sms,outbound,received, 
+,11/06/2024 01:53,VOICE,outbound,,
+,invalid_date,Email,outbound,, 
+57447,2024-06-10,SMS,inbound,received,
+,2024-06-10,SMS,outbound,delivered,
+21915,2024-06-10 18:14:58,Email,outbound,DELIVERED, 
+24371,2024-06-06 16:24:41,email,inbound,,
+92240,02/06/2024 16:59,VOICE,outbound,received, 
+,invalid_date,voice,inbound,DELIVERED,n/a
+88172,2024-06-11,voice,inbound,failed,137
+,invalid_date,email,outbound,SENT,77
+,2024-06-01,Email,inbound,failed,
+,2024-06-07 12:17:16,VOICE,outbound,SENT, 
+82512,2024-06-06,SMS,inbound,,116
+99166,2024-06-09,SMS,outbound,answered, 
+,invalid_date,email,outbound,received, 
+,2024-06-10,sms,inbound,answered,n/a
+,02/06/2024 07:33,Email,outbound,received,
+66985,2024-06-06 17:19:39,voice,inbound,sent, 
+69470,2024-06-08,Email,outbound,,n/a
+44522,08/06/2024 09:41,email,inbound,received, 
+76542,2024-06-08 20:38:32,Email,outbound,delivered,n/a
+,invalid_date,SMS,inbound,delivered,n/a
+93748,2024-06-09,email,outbound,DELIVERED,64
+,invalid_date,SMS,outbound,,216
+31174,02/06/2024 09:59,VOICE,inbound,delivered,n/a
+,2024-06-01 13:12:29,VOICE,inbound,DELIVERED,
+74042,invalid_date,sms,inbound,sent,163
+,2024-06-02 09:49:21,Email,outbound,, 
+50306,03/06/2024 20:23,VOICE,outbound,, 
+17592,invalid_date,Email,inbound,delivered,
+84364,invalid_date,SMS,inbound,failed, 
+,08/06/2024 03:04,email,inbound,SENT, 
+19071,invalid_date,VOICE,inbound,sent, 
+,2024-06-08 22:45:35,email,outbound,answered,n/a
+82063,invalid_date,VOICE,inbound,sent,290
+,invalid_date,Email,outbound,answered,54
+37760,2024-06-04 09:28:48,VOICE,outbound,DELIVERED,
+,2024-06-09,voice,inbound,received,
+,invalid_date,VOICE,inbound,answered, 
+,06/06/2024 09:31,SMS,inbound,DELIVERED, 
+25860,2024-06-11,sms,inbound,received,n/a
+39451,2024-06-02,SMS,outbound,sent, 
+54313,2024-06-07,email,inbound,delivered, 
+87110,invalid_date,Email,inbound,failed, 
+87128,04/06/2024 08:21,Email,outbound,answered,n/a
+10942,invalid_date,VOICE,inbound,SENT, 
+92719,02/06/2024 02:42,Email,outbound,failed,
+40007,2024-06-08 18:54:35,sms,outbound,DELIVERED,
+,2024-06-01,sms,outbound,DELIVERED,
+19287,03/06/2024 22:56,VOICE,outbound,delivered, 
+,10/06/2024 13:13,VOICE,outbound,SENT,n/a
+38080,01/06/2024 19:59,email,outbound,,
+,08/06/2024 02:47,VOICE,outbound,DELIVERED,
+,10/06/2024 20:49,SMS,outbound,sent, 
+63354,04/06/2024 23:41,SMS,outbound,SENT,n/a
+22363,2024-06-10 13:42:32,SMS,outbound,,n/a
+,04/06/2024 08:45,sms,inbound,delivered, 
+,2024-06-02,voice,outbound,delivered,
+,10/06/2024 16:35,Email,outbound,received,n/a
+17100,2024-06-02 08:01:06,email,inbound,DELIVERED,
+,2024-06-02 14:23:25,VOICE,outbound,failed, 
+54473,05/06/2024 08:20,email,outbound,sent,69
+42591,2024-06-08,sms,outbound,,n/a
+,01/06/2024 04:35,VOICE,inbound,DELIVERED,102
+,2024-06-04 05:17:38,VOICE,inbound,SENT,127
+,invalid_date,sms,inbound,failed,233
+70637,2024-06-07 09:14:00,Email,inbound,DELIVERED,n/a
+,2024-06-10 01:11:26,VOICE,outbound,DELIVERED,
+82132,invalid_date,Email,outbound,DELIVERED, 
+16630,2024-06-10,sms,outbound,received,63
+22224,2024-06-07 05:29:29,email,inbound,received,
+,06/06/2024 11:39,VOICE,inbound,answered, 
+,2024-06-08 11:09:46,voice,outbound,sent, 
+,2024-06-09,Email,inbound,failed,
+17685,2024-06-06 13:24:52,VOICE,outbound,sent,n/a
+59672,invalid_date,Email,inbound,sent,132
+,invalid_date,VOICE,outbound,DELIVERED,145
+,2024-06-06 04:09:40,VOICE,outbound,delivered,197
+,invalid_date,VOICE,outbound,sent,n/a
+30289,2024-06-01 21:24:20,email,outbound,,n/a
+48890,04/06/2024 21:49,voice,outbound,received,
+17665,01/06/2024 19:07,VOICE,outbound,SENT,209
+51104,2024-06-04,Email,inbound,sent, 
+,2024-06-05,email,outbound,failed,n/a
+75909,invalid_date,SMS,inbound,,n/a
+17455,2024-06-02 04:53:16,Email,inbound,SENT,
+34356,11/06/2024 08:23,Email,outbound,DELIVERED, 
+87992,invalid_date,voice,inbound,DELIVERED,
+98501,11/06/2024 18:40,SMS,inbound,sent,
+62923,2024-06-06,email,inbound,DELIVERED, 
+84668,invalid_date,VOICE,inbound,failed, 
+85880,invalid_date,Email,inbound,received,299
+91183,2024-06-09 20:30:54,voice,inbound,failed,
+,invalid_date,voice,outbound,received,
+44179,2024-06-04,voice,inbound,sent,152
+,05/06/2024 13:01,SMS,inbound,SENT,246
+,invalid_date,VOICE,inbound,answered,
+61876,2024-06-01 19:33:14,email,inbound,DELIVERED,
+,2024-06-11 02:16:16,Email,inbound,SENT,
+,invalid_date,voice,inbound,answered,n/a
+19508,2024-06-02,VOICE,outbound,delivered,n/a
+70068,10/06/2024 20:26,VOICE,outbound,answered, 
+19602,2024-06-07 18:03:17,sms,inbound,SENT,n/a
+,2024-06-08,voice,outbound,SENT, 
+,2024-06-09 03:09:19,SMS,outbound,failed,
+19016,2024-06-05,VOICE,inbound,answered, 
+,invalid_date,email,inbound,delivered,198
+,2024-06-11 12:51:00,sms,outbound,SENT,n/a
+,2024-06-04,VOICE,inbound,,n/a
+90173,2024-06-05 06:25:27,voice,inbound,failed, 
+,08/06/2024 00:19,voice,outbound,DELIVERED,
+96951,invalid_date,VOICE,outbound,SENT,n/a
+,2024-06-03 17:18:57,email,inbound,,150
+25129,2024-06-05,sms,outbound,DELIVERED,n/a
+82512,2024-06-02,voice,inbound,delivered,n/a
+,07/06/2024 23:13,sms,inbound,received,171
+89276,invalid_date,SMS,inbound,received,
+54942,2024-06-11 06:10:09,VOICE,inbound,sent,
+,2024-06-08,voice,inbound,failed,
+,01/06/2024 08:25,SMS,inbound,failed,
+42914,2024-06-04,sms,outbound,received,
+,2024-06-05,SMS,outbound,sent,237
+46265,01/06/2024 01:46,email,outbound,,240
+,11/06/2024 13:21,Email,outbound,DELIVERED,298
+,invalid_date,email,inbound,delivered,n/a
+,01/06/2024 20:16,sms,outbound,DELIVERED,256
+,2024-06-09 23:49:22,email,outbound,delivered,
+83519,02/06/2024 02:43,voice,outbound,answered,211
+24663,invalid_date,sms,inbound,SENT,n/a
+29536,2024-06-06,email,inbound,delivered,
+58393,2024-06-02,VOICE,outbound,delivered, 
+66333,2024-06-04,VOICE,inbound,failed,
+,2024-06-10 10:16:11,email,inbound,answered,92
+57795,2024-06-11 17:17:31,voice,inbound,failed,
+56898,02/06/2024 21:18,voice,outbound,failed,
+99399,2024-06-10 03:44:43,SMS,outbound,failed,29
+97416,2024-06-09 04:18:27,voice,outbound,DELIVERED,
+,invalid_date,sms,outbound,sent,n/a
+91351,invalid_date,VOICE,inbound,answered,n/a
+41029,invalid_date,sms,inbound,DELIVERED,250
+,2024-06-06,VOICE,inbound,answered, 
+13248,2024-06-03 14:47:20,Email,inbound,DELIVERED, 
+,invalid_date,voice,outbound,SENT, 
+97806,2024-06-02,email,outbound,sent,196
+44970,invalid_date,VOICE,outbound,received,n/a
+,2024-06-07,email,inbound,failed,191
+,01/06/2024 13:13,Email,inbound,DELIVERED,n/a
+39154,2024-06-05 19:07:43,sms,inbound,answered,9
+,01/06/2024 02:14,email,inbound,failed,n/a
+50001,04/06/2024 15:47,VOICE,outbound,SENT,
+39219,10/06/2024 07:30,Email,outbound,delivered,66
+96511,2024-06-10,VOICE,inbound,SENT,
+,2024-06-04,Email,inbound,DELIVERED,85
+46517,2024-06-02 10:56:52,voice,outbound,failed,
+,invalid_date,voice,inbound,DELIVERED, 
+,03/06/2024 03:10,voice,inbound,,
+,05/06/2024 14:44,voice,outbound,delivered,n/a
+13617,2024-06-07,voice,inbound,answered, 
+44237,invalid_date,Email,inbound,sent,n/a
+,2024-06-11 11:00:25,VOICE,inbound,DELIVERED, 
+15014,2024-06-06 07:03:29,email,outbound,delivered,n/a
+,2024-06-06 13:54:47,sms,inbound,sent,n/a
+,2024-06-11,sms,outbound,delivered,108
+67199,invalid_date,Email,inbound,sent,n/a
+60488,invalid_date,VOICE,inbound,,
+43386,invalid_date,Email,outbound,received, 
+67154,2024-06-04 12:19:38,sms,outbound,answered,130
+78146,2024-06-05 21:58:27,Email,outbound,sent,24
+,04/06/2024 22:35,Email,inbound,received,10
+,invalid_date,voice,inbound,sent, 
+,2024-06-11,sms,outbound,answered, 
+96951,invalid_date,voice,inbound,DELIVERED,
+,2024-06-11 05:58:26,voice,inbound,delivered,n/a
+,invalid_date,email,outbound,received,105
+,invalid_date,Email,inbound,failed, 
+48752,2024-06-07 08:36:54,email,inbound,answered,
+,2024-06-05,Email,outbound,DELIVERED, 
+,2024-06-10,VOICE,outbound,answered,53
+98777,2024-06-03,voice,outbound,DELIVERED,144
+,10/06/2024 10:56,Email,inbound,, 
+63225,2024-06-01 22:14:49,Email,outbound,,n/a
+,07/06/2024 10:32,SMS,outbound,received,n/a
+,2024-06-11,VOICE,outbound,delivered, 
+,05/06/2024 06:15,voice,inbound,,n/a
+,2024-06-03 20:49:05,VOICE,outbound,sent, 
+67954,2024-06-02,email,outbound,received, 
+,03/06/2024 09:27,email,outbound,sent,n/a
+32241,08/06/2024 07:27,Email,inbound,answered,1
+,2024-06-10 05:25:43,sms,outbound,DELIVERED,45
+22240,invalid_date,Email,inbound,DELIVERED, 
+,invalid_date,SMS,outbound,SENT,76
+39444,2024-06-09,Email,inbound,delivered,261
+29313,2024-06-11,voice,inbound,delivered,
+16057,invalid_date,SMS,inbound,delivered, 
+72277,invalid_date,Email,outbound,SENT,
+,2024-06-06,email,inbound,delivered,237
+92544,2024-06-10,voice,outbound,,n/a
+,2024-06-08 04:15:48,Email,inbound,received,
+62383,2024-06-05 06:30:38,voice,outbound,failed,
+29342,invalid_date,email,outbound,sent,218
+,2024-06-06 11:37:46,sms,outbound,sent,48
+38683,2024-06-01,sms,inbound,delivered,n/a
+,2024-06-11,VOICE,inbound,failed,
+16582,2024-06-01 22:20:58,Email,inbound,SENT, 
+,invalid_date,VOICE,outbound,received,137
+,2024-06-06 14:46:28,voice,outbound,SENT,
+,06/06/2024 10:59,Email,outbound,failed,93
+,invalid_date,sms,outbound,received, 
+,07/06/2024 02:02,SMS,inbound,answered,
+,invalid_date,VOICE,inbound,DELIVERED, 
+,2024-06-02,voice,inbound,received,n/a
+,2024-06-09 16:03:34,VOICE,inbound,DELIVERED,n/a
+,07/06/2024 02:57,sms,outbound,delivered,n/a
+92149,01/06/2024 11:24,sms,outbound,sent, 
+,invalid_date,SMS,outbound,SENT, 
+,06/06/2024 07:59,voice,inbound,delivered, 
+,2024-06-05,VOICE,inbound,failed,183
+,invalid_date,sms,inbound,DELIVERED, 
+80798,2024-06-05,voice,outbound,,249
+28136,2024-06-09 05:44:35,sms,inbound,answered, 
+,2024-06-10,SMS,outbound,answered,23
+30028,2024-06-01,SMS,outbound,received,
+,invalid_date,email,inbound,DELIVERED,n/a
+,2024-06-04,Email,outbound,,173
+,09/06/2024 18:48,voice,outbound,delivered,n/a
+64496,2024-06-05 01:05:55,email,outbound,received,
+,08/06/2024 01:44,SMS,inbound,SENT,n/a
+61049,2024-06-05,voice,inbound,answered,285
+,invalid_date,sms,inbound,answered,n/a
+72518,2024-06-02 13:33:35,SMS,outbound,SENT, 
+,invalid_date,VOICE,inbound,,n/a
+,2024-06-08,sms,inbound,received, 
+80545,10/06/2024 20:51,email,outbound,,n/a
+73993,2024-06-09 03:11:07,voice,outbound,SENT,
+,invalid_date,email,outbound,SENT,n/a
+73654,2024-06-07,email,outbound,sent, 
+,2024-06-01,voice,inbound,delivered,n/a
+,04/06/2024 17:57,sms,inbound,failed, 
+,2024-06-03,Email,inbound,delivered, 
+26728,invalid_date,Email,outbound,SENT, 
+61645,03/06/2024 07:55,Email,outbound,received,
+,02/06/2024 16:04,voice,outbound,delivered, 
+,2024-06-01,SMS,outbound,received,9
+33819,2024-06-11 05:57:27,SMS,outbound,delivered, 
+,2024-06-07 03:52:31,voice,inbound,failed,18
+52906,2024-06-09,VOICE,outbound,answered,
+,11/06/2024 15:16,sms,outbound,DELIVERED,n/a
+,invalid_date,VOICE,inbound,SENT,
+,02/06/2024 20:55,voice,outbound,SENT,186
+43065,03/06/2024 04:40,voice,inbound,failed, 
+71644,invalid_date,SMS,outbound,, 
+80702,invalid_date,sms,inbound,delivered, 
+55870,05/06/2024 10:06,email,inbound,sent,58
+95215,2024-06-06,sms,outbound,answered,113
+95426,invalid_date,SMS,inbound,DELIVERED,
+14067,03/06/2024 20:09,email,outbound,delivered,
+36130,invalid_date,email,outbound,SENT,54
+91439,11/06/2024 23:18,sms,outbound,failed, 
+41266,invalid_date,voice,outbound,received, 
+72070,2024-06-06,Email,outbound,,
+83920,invalid_date,SMS,outbound,DELIVERED,n/a
+,invalid_date,SMS,outbound,DELIVERED, 
+58351,02/06/2024 23:12,Email,inbound,sent, 
+89415,10/06/2024 17:23,VOICE,outbound,failed,
+,2024-06-11,VOICE,outbound,DELIVERED, 
+24168,invalid_date,SMS,inbound,delivered,23
+,2024-06-11,Email,outbound,failed, 
+61990,2024-06-07 17:31:18,Email,outbound,sent,n/a
+19961,2024-06-09 15:12:37,email,inbound,SENT,255
+,2024-06-04 11:01:50,voice,outbound,answered,271
+99687,10/06/2024 06:16,VOICE,outbound,answered, 
+84177,invalid_date,VOICE,outbound,received, 
+,11/06/2024 23:41,email,outbound,failed,n/a
+,invalid_date,sms,inbound,received,n/a
+,02/06/2024 02:42,VOICE,outbound,received,65
+,invalid_date,email,outbound,,
+74251,2024-06-11,Email,outbound,answered, 
+,invalid_date,sms,outbound,SENT,n/a
+,invalid_date,SMS,outbound,DELIVERED, 
+,2024-06-07,Email,inbound,SENT,
+,invalid_date,sms,inbound,sent,n/a
+,2024-06-01,voice,inbound,DELIVERED, 
+,2024-06-03 17:24:05,email,inbound,sent,
+,2024-06-04 20:49:25,voice,outbound,DELIVERED,
+52245,2024-06-11,Email,inbound,sent,n/a
+,10/06/2024 14:30,voice,outbound,,n/a
+69087,2024-06-02 16:04:43,sms,outbound,,
+,invalid_date,SMS,inbound,received,n/a
+54092,09/06/2024 10:44,voice,outbound,failed,
+,invalid_date,Email,outbound,DELIVERED,
+,2024-06-06 10:39:52,Email,inbound,received, 
+,2024-06-11 23:51:00,VOICE,outbound,SENT, 
+,2024-06-01,voice,inbound,,
+,03/06/2024 14:48,sms,outbound,answered,216
+82848,invalid_date,sms,inbound,,267
+77715,2024-06-02,VOICE,outbound,answered, 
+21221,2024-06-03,voice,outbound,DELIVERED,74
+,2024-06-02 11:29:27,email,inbound,DELIVERED,n/a
+82768,invalid_date,email,outbound,sent,n/a
+,invalid_date,VOICE,outbound,answered,
+68743,2024-06-01 18:17:38,Email,outbound,delivered,74
+,invalid_date,SMS,outbound,SENT,n/a
+,2024-06-08 05:48:46,email,inbound,received,277
+,08/06/2024 16:04,voice,outbound,sent, 
+,09/06/2024 17:17,SMS,inbound,DELIVERED,n/a
+,invalid_date,sms,inbound,SENT, 
+,2024-06-01,sms,inbound,received,
+,invalid_date,email,outbound,failed, 
+,2024-06-03 06:33:32,Email,inbound,delivered, 
+42951,2024-06-07,sms,inbound,answered,160
+25814,2024-06-01 19:42:46,SMS,outbound,answered,
+51359,invalid_date,Email,outbound,sent, 
+80236,invalid_date,email,outbound,delivered,
+35105,2024-06-05,sms,inbound,failed,n/a
+,2024-06-10 01:40:18,email,inbound,,
+,2024-06-05 08:00:40,Email,inbound,SENT,n/a
+23176,05/06/2024 04:25,Email,outbound,DELIVERED,n/a
+48829,2024-06-09 21:29:04,Email,inbound,,88
+57301,2024-06-10,VOICE,inbound,DELIVERED,193
+49618,2024-06-02 14:51:30,voice,outbound,sent,
+80010,2024-06-05,VOICE,outbound,DELIVERED,
+45954,10/06/2024 20:57,SMS,outbound,delivered,n/a
+,invalid_date,Email,outbound,delivered,
+,invalid_date,voice,inbound,SENT,
+23446,08/06/2024 16:00,Email,outbound,sent,n/a
+,10/06/2024 20:21,voice,inbound,SENT,n/a
+,invalid_date,sms,outbound,failed,165
+,2024-06-01,SMS,inbound,received, 
+34164,2024-06-03 10:43:03,voice,outbound,DELIVERED,
+,10/06/2024 14:25,SMS,outbound,answered,
+24953,2024-06-11 18:00:18,email,inbound,DELIVERED,n/a
+,2024-06-04,Email,inbound,delivered,94
+19710,invalid_date,sms,inbound,DELIVERED,n/a
+29887,invalid_date,email,outbound,SENT, 
+,2024-06-04 01:46:58,voice,outbound,,
+21164,10/06/2024 03:24,VOICE,outbound,sent,n/a
+,2024-06-04,voice,outbound,DELIVERED,
+89471,2024-06-11 11:06:57,Email,inbound,received,
+,2024-06-11,voice,outbound,DELIVERED, 
+,2024-06-04 07:34:48,SMS,outbound,delivered,287
+,2024-06-10,voice,outbound,,
+50026,invalid_date,Email,inbound,delivered,n/a
+89905,invalid_date,Email,outbound,sent,124
+37235,invalid_date,VOICE,outbound,failed, 
+44687,05/06/2024 02:45,sms,outbound,failed, 
+30585,invalid_date,sms,inbound,,
+32782,2024-06-05,sms,outbound,delivered,
+30517,2024-06-10 17:21:04,email,inbound,failed, 
+,invalid_date,sms,inbound,failed,249
+,invalid_date,email,inbound,sent,n/a
+48175,08/06/2024 07:28,voice,outbound,received,164
+,2024-06-07,VOICE,inbound,SENT,n/a
+,2024-06-04 21:33:34,Email,inbound,sent,275
+19329,2024-06-01,email,inbound,answered,n/a
+44675,2024-06-09,voice,inbound,answered, 
+65723,invalid_date,VOICE,inbound,,n/a
+81376,invalid_date,email,outbound,sent, 
+94886,invalid_date,VOICE,outbound,delivered,n/a
+44816,invalid_date,voice,outbound,SENT, 
+19359,2024-06-01,sms,inbound,answered,169
+,invalid_date,sms,outbound,,44
+,2024-06-04 07:58:12,voice,inbound,failed,n/a
+67560,invalid_date,VOICE,inbound,,128
+,05/06/2024 09:49,SMS,outbound,delivered,n/a
+,01/06/2024 09:04,VOICE,outbound,DELIVERED, 
+,invalid_date,email,inbound,answered, 
+67377,01/06/2024 10:08,VOICE,inbound,failed, 
+88385,01/06/2024 19:34,voice,outbound,sent,161
+,2024-06-10,Email,outbound,failed,199
+,invalid_date,SMS,outbound,SENT,273
+13390,2024-06-07 21:13:19,VOICE,inbound,SENT,32
+40005,08/06/2024 08:14,SMS,inbound,delivered,
+,invalid_date,SMS,inbound,failed,257
+85529,2024-06-05,VOICE,outbound,received,
+,2024-06-06 09:18:24,VOICE,inbound,,
+,07/06/2024 23:10,sms,inbound,, 
+46458,2024-06-07,VOICE,inbound,received,202
+,2024-06-05,VOICE,outbound,received,n/a
+,2024-06-08,sms,outbound,failed,n/a
+,2024-06-04 00:42:16,sms,inbound,answered, 
+,01/06/2024 07:32,Email,outbound,sent,
+,invalid_date,VOICE,inbound,delivered,
+97835,2024-06-07 19:35:56,email,outbound,received,191
+,2024-06-04,SMS,outbound,SENT,n/a
+,invalid_date,voice,outbound,delivered,63
+,2024-06-03,sms,outbound,answered, 
+82102,invalid_date,voice,outbound,delivered,275
+69614,2024-06-03 10:18:22,VOICE,inbound,,n/a
+,2024-06-02 15:32:01,email,outbound,received,n/a
+52372,06/06/2024 11:40,SMS,outbound,SENT,n/a
+62976,invalid_date,VOICE,outbound,sent,n/a
+,2024-06-02,email,inbound,DELIVERED,
+64165,2024-06-09,SMS,outbound,SENT,99
+,2024-06-09 14:40:07,email,inbound,SENT,92
+,2024-06-07,sms,inbound,answered, 
+,2024-06-11,VOICE,outbound,delivered,281
+16764,11/06/2024 07:58,email,inbound,SENT,148
+45003,09/06/2024 15:19,email,inbound,failed,128
+,2024-06-10,VOICE,outbound,received, 
+73532,07/06/2024 04:11,SMS,inbound,sent,
+13783,02/06/2024 11:20,VOICE,inbound,sent,n/a
+,10/06/2024 14:42,email,outbound,SENT,
+82199,invalid_date,voice,inbound,received,n/a
+,2024-06-01,Email,outbound,received, 
+22217,2024-06-07,voice,outbound,delivered,
+,06/06/2024 16:08,SMS,inbound,received,n/a
+25396,2024-06-08 10:14:34,email,outbound,sent,
+,2024-06-01,Email,outbound,SENT, 
+,invalid_date,SMS,inbound,,86
+,invalid_date,voice,outbound,answered,n/a
+71894,invalid_date,sms,inbound,sent, 
+69871,2024-06-10 23:48:53,VOICE,inbound,,
+60277,2024-06-02,SMS,outbound,delivered,
+88561,2024-06-08 19:05:40,SMS,outbound,DELIVERED, 
+,invalid_date,email,inbound,delivered,
+,2024-06-09,Email,inbound,SENT, 
+,02/06/2024 13:22,voice,outbound,SENT,282
+,10/06/2024 07:37,SMS,outbound,delivered,89
+,2024-06-06 06:00:33,VOICE,inbound,,n/a
+,2024-06-11 02:09:36,SMS,outbound,delivered,n/a
+,07/06/2024 06:54,SMS,inbound,received,134
+,04/06/2024 16:34,email,outbound,SENT,38
+,2024-06-02,SMS,inbound,sent,259
+,09/06/2024 14:36,Email,inbound,received, 
+34727,2024-06-05,email,outbound,sent,108
+,2024-06-11 06:23:45,sms,outbound,received,
+,04/06/2024 00:59,sms,outbound,delivered, 
+,2024-06-08,voice,outbound,delivered,
+,2024-06-02,voice,outbound,sent,n/a
+60604,2024-06-08 10:57:54,voice,outbound,sent,n/a
+74923,07/06/2024 02:23,email,outbound,DELIVERED,237
+,08/06/2024 04:22,Email,inbound,received,
+,2024-06-03,email,inbound,DELIVERED,257
+,2024-06-11 05:24:16,email,inbound,received,n/a
+12011,2024-06-11 00:22:02,email,inbound,failed,n/a
+63736,2024-06-01 23:39:28,email,outbound,DELIVERED,n/a
+,2024-06-08,SMS,inbound,received,n/a
+,08/06/2024 21:39,voice,outbound,answered,
+,invalid_date,voice,inbound,received,n/a
+95175,2024-06-08 12:02:13,VOICE,outbound,sent,n/a
+,2024-06-07,sms,inbound,sent,
+,2024-06-08,voice,outbound,failed,n/a
+80912,06/06/2024 20:40,Email,outbound,,n/a
+90931,invalid_date,SMS,inbound,received,
+,invalid_date,sms,inbound,sent, 
+39817,2024-06-01 21:15:17,VOICE,outbound,received,232
+66881,invalid_date,email,outbound,SENT,
